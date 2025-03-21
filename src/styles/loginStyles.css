@@ -1,0 +1,10 @@
+.errorMessage {
+    color: red;
+    font-weight: bold;
+}
+.pageDesign {
+    padding: 2em;
+}
+.inputField {
+    padding: 10px;
+}
