@@ -20,8 +20,8 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
         
     steps:
-    - name: Setup Node.js environment
     - uses: actions/setup-node@v4.3.0
+    - name: Setup Node.js environment
       with:
         cache-dependency-path: package.json
     - uses: actions/checkout@v4
